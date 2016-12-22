@@ -1,0 +1,38 @@
+.profileOutline {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+  background-color: teal;
+  width: 50vw;
+  height: 25vw;
+}
+
+.profile {
+  position: absolute;
+  width: 200px;
+  height: 75px;
+  left: 25vw;
+  right: 25vw;
+  transform: translateX(-50%);
+}
+
+#demo{
+  position: relative;
+  top: 10vw;
+
+}
+
+form {
+  position: relative;
+  bottom: 11vw;
+  left: 41vw;
+
+  /*left: 45vw;*/
+  /*right: 45vw;*/
+}
+
+input {
+  width: 250px;
+  height: 100px;
+}
